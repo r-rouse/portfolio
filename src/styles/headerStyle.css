@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    justify-content: flex-start;
+    height: 30vh;
+    width: 100%;
+    border: 2px red solid;
+
+}
+.profile-pic{
+    height: 15vh;
+    margin: 3vw;
+    border-radius: 50%;
+    border: 1px solid black;
+}
