@@ -1,9 +1,10 @@
 .header{
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     height: 30vh;
     width: 100%;
-    border: 2px red solid;
+    font-size: 15vh;
 
 }
 .profile-pic{
