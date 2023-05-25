@@ -7,7 +7,7 @@ export const Resume = () => {
 
     return(<>
         <Link to={"/"}>home</Link>
-        <iframe src={PdfFile} width="100%" height="1500px"></iframe>
+        <iframe src={PdfFile} width="100%" height="1500px" title="resume"></iframe>
         </>
 
     )

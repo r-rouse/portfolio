@@ -9,11 +9,11 @@ export const Links = () => {
     const about = "about"
     const projects = "projects"
     const resume = "resume"
-    const textBox = {
-        about: "hey there",
-        projects: "checkout what ive been working on",
-        resume: "self explainitory"
-    }
+    // const textBox = {
+    //     about: "hey there",
+    //     projects: "checkout what ive been working on",
+    //     resume: "self explainitory"
+    // }
     return (
         <div className="links-container">
             <Link className="links" to={"/about"}>

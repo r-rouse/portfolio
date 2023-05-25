@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import imageSrc from '../assets/1639858667163.jpeg';
 import "../styles/headerStyle.css"
-import axios from 'axios'
 
 
 export const Header = () => {
@@ -20,7 +19,7 @@ export const Header = () => {
 
     return(
         <div className="header">
-            <img src={imageSrc} className="profile-pic"></img>
+            <img src={imageSrc} className="profile-pic" alt="profile pic"></img>
             {`${profileName}`}
         </div>
     )
