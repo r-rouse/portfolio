@@ -15,8 +15,8 @@ const MyDrawer = () => {
       <Button onClick={toggleDrawer}>Toggle Drawer</Button>
       <Drawer open={open} onClose={toggleDrawer}>
         <div>
-          <h2>Drawer Content</h2>
-          <p>This is the content of the drawer.</p>
+          <h2>Hi there!</h2>
+          <p>Thanks for dropping by and looking at my portfolio</p>
         </div>
       </Drawer>
     </div>

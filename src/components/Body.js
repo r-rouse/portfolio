@@ -10,7 +10,6 @@ export const Body = () => {
 
     return (
         <div className="body-container">
-            <Header/>
             <div className="links">
                 <Links />
             </div>
