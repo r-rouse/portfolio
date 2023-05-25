@@ -1,3 +1,23 @@
+@media (max-width: 600px) {
+  .links-container {
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 10%;
+    justify-content: space-around;
+    cursor: pointer;
+  }
+  
+  .links {
+    display: inline-block;
+    padding: 10px;
+    color: #333;
+    transition: transform 0.3s, background-color 0.3s;
+    font-size: 2vh;
+    cursor: pointer;
+  }
+}
+@media (min-width: 1000px) {
 .links-container {
   display: flex;
   width: 90%;
@@ -14,6 +34,7 @@
   transition: transform 0.3s, background-color 0.3s;
   font-size: 5vh;
   cursor: pointer;
+}
 }
 
 .links:hover {
