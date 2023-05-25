@@ -1,8 +1,6 @@
 import React from "react";
-import MyDrawer from "./Drawer";
 import "../styles/body.css"
 import { Links } from "./Links";
-import { Header } from "./Header";
 
 
 export const Body = () => {
@@ -14,7 +12,7 @@ export const Body = () => {
                 <Links />
             </div>
             <div className="drawer-chevron">
-                <MyDrawer />
+                {/* <MyDrawer /> */}
             </div>
         </div>
     )
