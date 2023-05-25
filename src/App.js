@@ -1,14 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-import { Header } from './components/Header';
+import {  Routes, Route } from 'react-router-dom';
 import { Body } from './components/Body';
+import { Links } from './components/Links';
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <Body/>
-    </div>
+      <Routes>
+        <Route exact path="/" element={<Body />} />
+        <Route path="/about" element={<Links />} />
+      </Routes>
   );
 }
 
