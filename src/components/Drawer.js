@@ -25,10 +25,10 @@ export const MyDrawer = () => {
                 overlayClassName="custom-overlay"
             >
                 <div className='social-links'>
-                    <a href="https://www.linkedin.com/in/randall-rouse/" target="_blank">
+                    <a href="https://www.linkedin.com/in/randall-rouse/" target="_blank" rel="noopener noreferrer">
                         <img src="https://static.vecteezy.com/system/resources/previews/018/930/587/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="LinkedIn" width="30" height="30" />
                     </a>
-                    <a href="https://github.com/r-rouse" target="_blank">
+                    <a href="https://github.com/r-rouse" target="_blank" rel="noopener noreferrer">
                         <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github" width="30" height="30" />
                     </a>
                 </div>
