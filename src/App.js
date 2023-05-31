@@ -12,9 +12,9 @@ function App() {
     <Header/>
       <Routes>
         <Route exact path="/" element={<Body />} />
+        <Route path="/projects" element={<Project />} />
         <Route path="/about" element={<About />} />
         <Route path="/resume" element={<Resume />} />
-        <Route path="/pojects" element={<Project />} />
       </Routes>
       </>
   );

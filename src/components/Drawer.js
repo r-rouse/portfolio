@@ -31,7 +31,7 @@ export const MyDrawer = () => {
                     <a href="https://github.com/r-rouse" target="_blank" rel="noopener noreferrer">
                         <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github" width="30" height="30" />
                     </a>
-                    <a href="https://github.com/r-rouse" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/secondhandsandals/" target="_blank" rel="noopener noreferrer">
                         <img src="https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-white-full-gradient-colour-background-900x900.png" alt="Github" width="30" height="30" />
                     </a>
                 </div>

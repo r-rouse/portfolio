@@ -8,7 +8,8 @@ export const About = () => {
 
     return(
         <>
-        <Link to={"/"}>home</Link>
+        <Link to={"/"} className="links">home</Link>
+
         </>
     )
 }
