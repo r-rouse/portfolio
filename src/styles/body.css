@@ -1,38 +1,78 @@
-.body-container{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.body-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.drawer-chevron{
-    margin-left: auto;
+
+.drawer-chevron {
+  margin-left: auto;
 }
-.links{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: .9; 
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: .9;
 }
+
+.chevron-button {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  border-radius: 50;
+  color: white;
+  font-size: 28px;
+}
+.chevron-button-invisible {
+display: none;
+}
+
 .EZDrawer .EZDrawer__checkbox {
-    display: none; }
-    .EZDrawer .EZDrawer__checkbox:checked ~ .EZDrawer__overlay {
-      display: block;
-      opacity: 1; }
-    .EZDrawer .EZDrawer__checkbox:checked ~ .EZDrawer__container {
-      visibility: visible;
-      transform: translate3d(0, 0, 0) !important; }
-  
-  .EZDrawer .EZDrawer__overlay {
-    display: none;
-    height: 100vh;
-    left: 0;
-    position: fixed;
-    top: 0;
-    width: 100%; }
-  
-  .EZDrawer .EZDrawer__container {
-    position: fixed;
-    visibility: hidden;
-    background: rgb(103, 9, 9);
-    transition: all;
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1); }
+  display: none;
+}
+
+.EZDrawer .EZDrawer__checkbox:checked~.EZDrawer__overlay {
+  display: block;
+  opacity: 1;
+}
+
+.EZDrawer .EZDrawer__checkbox:checked~.EZDrawer__container {
+  visibility: visible;
+  transform: translate3d(0, 0, 0) !important;
+}
+
+.EZDrawer .EZDrawer__overlay {
+  display: none;
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(91, 64, 64, 0.5) !important;
+}
+
+.EZDrawer .EZDrawer__container {
+  position: fixed;
+  visibility: hidden;
+  background: rgb(224, 205, 205, 0%);
+  transition: all;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-links img {
+  height: 15vh;
+  width: auto;
+  padding: 5vh;
+  margin: 1vh;
+}
+
+.social-links img:hover {
+  transform: scale(1.1);
+}
