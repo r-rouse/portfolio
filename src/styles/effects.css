@@ -1,0 +1,32 @@
+.mouth {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .mouth.open .bubble {
+    opacity: 1;
+  }
+  
+  .bubble {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .bubble span {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
