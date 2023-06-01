@@ -29,4 +29,46 @@
     font-weight: bold;
     font-size: 14px;
   }
+  .falling-letter {
+    animation: fallAnimation 2s forwards;
+    position: relative;
+    top: -100vh;
+  }
   
+  @keyframes fallAnimation {
+    0% {
+      top: -100vh;
+    }
+    100% {
+      top: 0;
+    }
+  }
+  .falling-letter:nth-child(1) {
+    animation-delay: 0.2s;
+  }
+  
+  .falling-letter:nth-child(2) {
+    animation-delay: 0.4s;
+  }
+  
+  .falling-letter:nth-child(3) {
+    animation-delay: 0.6s;
+  }
+  .falling-letter:nth-child(4) {
+    animation-delay: 0.8s;
+  } 
+  .falling-letter:nth-child(5) {
+    animation-delay: 1.0s;
+  } 
+  .falling-letter:nth-child(6) {
+    animation-delay: 1.2s;
+  }
+  .falling-letter:nth-child(7) {
+    animation-delay: 1.4s;
+  }
+.falling-letter:nth-child(8) {
+    animation-delay: 1.4s;
+  }
+  .falling-letter:nth-child(9) {
+    animation-delay: 1.6s;
+  }
