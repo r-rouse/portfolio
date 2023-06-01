@@ -15,8 +15,10 @@
     color: #333;
     transition: transform 0.3s, background-color 0.3s;
     font-family: 'Rubik Wet Paint', cursive;
-    font-size: 3vh;
+    font-size: 3vw;
     cursor: pointer;
+    position: relative;
+    left: -3vw;
   }
 }
 @media (min-width: 1000px) {

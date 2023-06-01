@@ -5,13 +5,13 @@
         align-items: center;
         height: 30vh;
         width: 100%;
-        font-size: 5vh;
+        font-size: 6vh;
         font-family: 'Rubik Wet Paint', cursive;
 
     }
 
     .profile-pic {
-        height: 5vh;
+        height: 6vh;
         margin: 3vw;
         border-radius: 50%;
         border: 1px solid black;
