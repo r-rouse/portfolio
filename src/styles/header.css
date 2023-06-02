@@ -30,8 +30,8 @@
     }
 
     .profile-pic {
-        height: 15vh;
-        margin: 3vw;
+        height: 25vh;
+        margin: 5vw;
         border-radius: 50%;
     }
 }
