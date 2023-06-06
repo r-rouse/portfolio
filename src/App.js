@@ -6,13 +6,14 @@ import { Header } from './components/Header';
 import { About } from './pages/about';
 import { Project } from './pages/projects';
 import Footer from './components/Footer';
+import ThemeToggle from './components/ThemeToggle';
+import Home from './pages/home';
 
 function App() {
   return (
     <>
-      <Header />
       <Routes>
-        <Route exact path="/" element={<Body />} />
+        <Route exact path="/" element={<Home/>} />
         <Route path="/projects" element={<Project />} />
         <Route path="/about" element={<About />} />
         <Route path="/resume" element={<Resume />} />
