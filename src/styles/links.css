@@ -1,7 +1,7 @@
 
 @media (max-width: 600px) {
   .links-container {
-    display: flex;
+    display: block;
     width: 90%;
     margin-left: 5%;
     margin-right: 10%;
@@ -15,7 +15,7 @@
     color: #333;
     transition: transform 0.3s, background-color 0.3s;
     font-family: 'Rubik Wet Paint', cursive;
-    font-size: 3vw;
+    font-size: 15vw;
     cursor: pointer;
     position: relative;
     left: -3vw;
