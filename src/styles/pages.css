@@ -47,5 +47,11 @@
   transition: opacity 0.5s ease-in-out;
   height: 50px;
   margin: 1vw;
-
+}
+.code-link{
+    text-decoration: none;
+}
+.link-container{
+    display: flex;
+    justify-content: space-around;
 }

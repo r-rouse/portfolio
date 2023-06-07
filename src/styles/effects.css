@@ -72,3 +72,15 @@
   .falling-letter:nth-child(9) {
     animation-delay: 1.6s;
   }
+  .falling-letter:nth-child(10) {
+    animation-delay: 1.8s;
+  }
+  .falling-letter:nth-child(11) {
+    animation-delay: 1.4s;
+  }
+  .falling-letter:nth-child(12) {
+    animation-delay: 1.2s;
+  }
+  .falling-letter:nth-child(13) {
+    animation-delay: 0.4s;
+  }
