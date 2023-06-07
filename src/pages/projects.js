@@ -7,11 +7,12 @@ import "../styles/pages.css"
 export const Project = () => {
 
 
-    return(
+    return (
         <div className="project-container">
-            <h1>projects</h1>
-        <Link to={"/"} className="links">home</Link>
-        <MyCarousel/>
+            <div className="project-carousel">
+                <Link to={"/"} className="links">home</Link>
+                <MyCarousel />
+            </div>
         </div>
     )
 }

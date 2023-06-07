@@ -1,6 +1,6 @@
 // AboutMe.js
 
-const aboutMeDescription = `Hello! My name is [Your Name], and I am a passionate front-end developer with a unique background.
+const aboutMeDescription = `Hello! My name is Randall Rouse, and I am a passionate front-end developer with a unique background.
 
 Originally, I pursued a degree in biology during my college years. While studying biology, I discovered my fascination with the complexity of life and the scientific method. However, I realized that my true passion lay in the world of technology and coding.
 
