@@ -18,7 +18,7 @@ const MyCarousel = () => {
     setCurrentItem(index);
   };
 
-  const reactVis = currentItem === 0 ? "react-visible" : "react-invisible";
+  const reactVis = currentItem === 0 ? "visible" : "invisible";
 
   return (
     <>
@@ -30,11 +30,20 @@ const MyCarousel = () => {
         ))}
       </Carousel>
       <div className="logo-container">
-      <img src={reactLogo} className={reactVis} alt="React Logo" />
-      <img src={postgreSqlLogo} className={reactVis} alt="Postgres-Logo"/>
+        <img
+          src={reactLogo}
+          className={`react-logo-${reactVis}`}
+          alt="React Logo"
+        />
+        <img
+          src={postgreSqlLogo}
+          className={`postgres-logo-${reactVis}`}
+          alt="Postgres-Logo"
+        />
       </div>
     </>
   );
 };
 
 export default MyCarousel;
+

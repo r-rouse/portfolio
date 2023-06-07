@@ -36,11 +36,15 @@
 .logo-container{
     display: flex;
 }
-.react-invisible{
-    display: none;
+.react-logo-invisible,
+.postgres-logo-invisible {
+  opacity: 0;
 }
-.react-visible{
-    display: block;
-    height: 50px;
-    margin: 2vw
+
+ .react-logo-visible,
+ .postgres-logo-visible {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  height: 50px;
+
 }
