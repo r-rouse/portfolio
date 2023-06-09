@@ -48,7 +48,7 @@
 .links:hover {
   transform: scale(1.05);
   color: aliceblue;
-  cursor: crosshair;
+  cursor: pointer;
 }
 .links:hover .text-1{
   display: block;
