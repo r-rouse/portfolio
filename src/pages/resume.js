@@ -1,5 +1,5 @@
 import React from "react";
-import PdfFile from "../assets/Randall_Rouse_Resume_2k23.pdf"
+import PdfFile from "../assets/Randall_Rouse_Resume_2k23_Redacted.pdf"
 import { Link } from 'react-router-dom';
 
 
