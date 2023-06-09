@@ -1,44 +1,45 @@
 @media (max-width: 600px) {
-    .header {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        height: 30vh;
-        width: 100%;
-        font-size: 6vh;
-        font-family: 'Rubik Wet Paint', cursive;
+  .header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 30vh;
+    width: 100%;
+    font-size: 6vh;
+    font-family: 'Rubik Wet Paint', cursive;
 
-    }
+  }
 
-    .profile-pic {
-        height: 6vh;
-        margin: 3vw;
-        border-radius: 50%;
-        border: 1px solid black;
-    }
+  .profile-pic {
+    height: 6vh;
+    margin: 3vw;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
+
+  }
 }
 
 @media (min-width: 1000px) {
-    .header {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        height: 30vh;
-        width: 100%;
-        margin: 1vw;
-        font-size: 15vh;
-        font-family: 'Rubik Wet Paint', cursive;
-        border-bottom: 2px solid black;
-    }
+  .header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 30vh;
+    width: 100%;
+    margin: 1vw;
+    font-size: 15vh;
+    font-family: 'Rubik Wet Paint', cursive;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
+  }
 
-    .profile-pic {
-        height: 25vh;
-        margin: 3vw;
-        margin-top: 10vh;
-        border-radius: 50%;
-        border: 1px solid black;
+  .profile-pic {
+    height: 25vh;
+    margin: 3vw;
+    margin-top: 10vh;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
 
-    }
+  }
 }
 
 /* .neon-border {
@@ -70,4 +71,3 @@
       box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00;
     }
   } */
-  

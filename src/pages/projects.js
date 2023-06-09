@@ -8,11 +8,14 @@ export const Project = () => {
 
 
     return (
-        <div className="project-container">
-            <div className="project-carousel">
-                <Link to={"/"} className="links">home</Link>
-                <MyCarousel />
+        <>
+            <Link to={"/"} className="links">home</Link>
+
+            <div className="project-container">
+                <div className="project-carousel">
+                    <MyCarousel />
+                </div>
             </div>
-        </div>
+        </>
     )
 }

@@ -2,8 +2,10 @@ import React, { useState } from 'react';
 import "../styles/pages.css";
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import reactLogo from "../assets/react-logo.png";
-import postgreSqlLogo from "../assets/Postgresql_elephant.svg.png"
+import { ceeLoDescription } from '../constants/aboutMe';
+import { wienersDescription } from '../constants/aboutMe';
+import { creatureDescription } from '../constants/aboutMe';
+import { calPalDescription } from '../constants/aboutMe';
 
 const MyCarousel = () => {
   const carouselItems = [
@@ -28,29 +30,26 @@ const MyCarousel = () => {
     { id: 3, content: <img src='https://user-images.githubusercontent.com/93789562/244234048-68ee0b39-ea07-48cf-9659-8f85598e2753.png' alt='pic'></img> },
     { id: 4, content: <img src='https://user-images.githubusercontent.com/93789562/244234063-d6d8950c-d38c-417d-b838-9e58faba8f06.png' alt='pic'></img> },
   ];
-  const [currentItem, setCurrentItem] = useState(0);
+  const [, setCurrentItem] = useState(0);
 
   const handleCarouselChange = (index) => {
     setCurrentItem(index);
   };
 
-  const reactVis = currentItem < 3 ? "visible" : "invisible";
+  // const reactVis = currentItem < 3 ? "visible" : "invisible";
 
   return (
     <>
-      <div>
-        <Carousel className='carousel' onChange={handleCarouselChange}>
-          {carouselItems.map(item => (
-            <div key={item.id}>
-              <h3>{item.content}</h3>
-            </div>
-          ))}
-        </Carousel>
-        <div className='link-container'>
-          <a className='code-link' href="https://cee-lo.surge.sh/game.html"> CEE LO</a>
-          <a className='code-link' href='https://github.com/Randall-Rous3/Cee-Lo'>Repo</a>
-        </div>
-        <div className="logo-container">
+      <div className='carousel-container'>
+        <div className='carousel-info-container'>
+          <Carousel className='carousel' onChange={handleCarouselChange}>
+            {carouselItems.map(item => (
+              <div key={item.id}>
+                <h3>{item.content}</h3>
+              </div>
+            ))}
+          </Carousel>
+          {/* <div className="logo-container">
           <img
             src={reactLogo}
             className={`react-logo-${reactVis}`}
@@ -61,28 +60,43 @@ const MyCarousel = () => {
             className={`postgres-logo-${reactVis}`}
             alt="Postgres-Logo"
           />
+        </div> */}
+          <div className='info-container'>{ceeLoDescription}</div>
         </div>
-        <Carousel className='carousel' onChange={handleCarouselChange}>
-          {carouselItems2.map(item => (
-            <div key={item.id}>
-              <h3>{item.content}</h3>
-            </div>
-          ))}
-        </Carousel>
-        <Carousel className='carousel' onChange={handleCarouselChange}>
-          {carouselItems3.map(item => (
-            <div key={item.id}>
-              <h3>{item.content}</h3>
-            </div>
-          ))}
-        </Carousel>
-        <Carousel className='carousel' onChange={handleCarouselChange}>
-          {carouselItems4.map(item => (
-            <div key={item.id}>
-              <h3>{item.content}</h3>
-            </div>
-          ))}
-        </Carousel>
+        <div className='link-container'>
+            <a className='code-link' href="https://cee-lo.surge.sh/game.html"> CEE LO</a>
+            <a className='code-link' href='https://github.com/Randall-Rous3/Cee-Lo'>Repo</a>
+          </div>
+        <div className='carousel-info-container'>
+          <Carousel className='carousel' onChange={handleCarouselChange}>
+            {carouselItems2.map(item => (
+              <div key={item.id}>
+                <h3>{item.content}</h3>
+              </div>
+            ))}
+          </Carousel>
+          <div className='info-container'>{wienersDescription}</div>
+        </div>
+        <div className='carousel-info-container'>
+          <Carousel className='carousel' onChange={handleCarouselChange}>
+            {carouselItems3.map(item => (
+              <div key={item.id}>
+                <h3>{item.content}</h3>
+              </div>
+            ))}
+          </Carousel>
+          <div className='info-container'>{ creatureDescription}</div>
+        </div>
+        <div className='carousel-info-container'>
+          <Carousel className='carousel' onChange={handleCarouselChange}>
+            {carouselItems4.map(item => (
+              <div key={item.id}>
+                <h3>{item.content}</h3>
+              </div>
+            ))}
+          </Carousel>
+          <div className='info-container'>{calPalDescription}</div>
+        </div>
       </div>
     </>
   );
