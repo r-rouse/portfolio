@@ -16,7 +16,10 @@ export const MyDrawer = () => {
 
     return (
         <>
+        <div className='button-container'>
             <button onClick={toggleDrawer} className={`${buttonClassName}`}>&#60;</button>
+            <div className="text-bubble">Socials</div>
+            </div>
             <Drawer
                 open={isOpen}
                 onClose={toggleDrawer}

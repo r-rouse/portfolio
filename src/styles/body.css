@@ -11,6 +11,27 @@
   justify-content: center;
   flex: .9;
 }
+.button-container {
+  align-self: flex-end;
+  display: inline-block;
+}
+
+.text-bubble {
+  position: absolute;
+  transform: translateX(-50%);
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.2s ease-in;
+}
+
+.button-container:hover .text-bubble {
+  visibility: visible; /* Show the bubble on hover */
+  opacity: 1;
+}
 
 .chevron-button {
   display: flex;
