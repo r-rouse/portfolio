@@ -21,7 +21,7 @@
     left: -3vw;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 599px) {
 .links-container {
   display: flex;
   margin-top: 10vh;
