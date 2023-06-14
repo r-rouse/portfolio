@@ -14,7 +14,7 @@
     padding: 10px;
     color: #333;
     transition: transform 0.3s, background-color 0.3s;
-    font-family: 'Rubik Wet Paint', cursive;
+    font-family: 'Righteous', cursive;
     font-size: 15vw;
     cursor: pointer;
     position: relative;
@@ -36,7 +36,7 @@
 .links {
   display: inline-block;
   padding: 15px;
-  font-family: 'Rubik Wet Paint', cursive;
+  font-family: 'Righteous', cursive;
   text-shadow: 2px 10px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s, background-color 0.3s;
   font-size: 8vh;

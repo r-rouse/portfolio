@@ -4,9 +4,10 @@
 }
 
 body {
-  background: linear-gradient(45deg, #76ff0a, #d3ff2a, #ffcd3c, #ff9a65, #ff6b91, #fc56aa, #ff4ec4);
+  background: linear-gradient(45deg, #F5DD83, #E9D48D, #DCC998, #D0BDA2);
+
   background-size: 800% 800%;
-  animation: rainbow-gradient 20s ease infinite;
+  animation: rainbow-gradient 10s ease infinite;
 }
 
 
