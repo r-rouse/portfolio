@@ -3,7 +3,6 @@ import { Routes, Route } from 'react-router-dom';
 import { Resume } from './pages/resume';
 import { About } from './pages/about';
 import { Project } from './pages/projects';
-import Footer from './components/Footer';
 import Home from './pages/home';
 
 function App() {
@@ -15,7 +14,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/resume" element={<Resume />} />
       </Routes>
-      <Footer/>
+      {/* <Footer/> */}
     </>
   );
 }

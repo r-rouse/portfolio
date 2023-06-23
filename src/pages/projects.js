@@ -9,7 +9,7 @@ export const Project = () => {
 
     return (
         <>
-            <Link to={"/"} className="links">home</Link>
+            <Link to={"/"} className="link-item">home</Link>
 
             <div className="project-container">
                 <div className="project-carousel">

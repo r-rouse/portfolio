@@ -1,7 +1,6 @@
 // import { useState } from 'react';
 import React from "react";
 // import axios from 'axios';
-import imageSrc from '../assets/1639858667163.jpeg';
 import "../styles/header.css"
 import NameFallingAnimation from '../effects/fallingAnimation';
 
@@ -23,7 +22,6 @@ export const Header = () => {
     return(
         <div className="header">
             <div className="neon-border">
-            <img src={imageSrc} className="profile-pic" alt="profile pic"></img>
             </div>
             <NameFallingAnimation/>
         </div>
