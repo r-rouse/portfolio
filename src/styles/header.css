@@ -5,16 +5,8 @@
     align-items: center;
     height: 30vh;
     width: 100%;
-    font-size: 6vh;
+    font-size: 3vh;
     font-family: 'Righteous', cursive;
-
-  }
-
-  .profile-pic {
-    height: 6vh;
-    margin: 3vw;
-    border-radius: 50%;
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
 
   }
 }
@@ -23,51 +15,12 @@
   .header {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: baseline;
     height: 30vh;
     width: 100%;
     margin: 1vw;
-    font-size: 15vh;
+    font-size: 5vh;
     font-family: 'Righteous', cursive;
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
   }
 
-  .profile-pic {
-    height: 25vh;
-    margin: 3vw;
-    margin-top: 10vh;
-    border-radius: 50%;
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
-
-  }
 }
-
-/* .neon-border {
-    position: relative;
-  }
-  
-  .neon-border::before {
-    content: '';
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    right: -2px;
-    bottom: -2px;
-    z-index: -1;
-    border-radius: 5%;
-    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00;
-    opacity: 0.8;
-    animation: neonGlow 1.5s ease-in-out infinite;
-  }
-  
-  @keyframes neonGlow {
-    0% {
-      box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00;
-    }
-    50% {
-      box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 40px #00ff00, 0 0 50px #00ff00;
-    }
-    100% {
-      box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00;
-    }
-  } */
