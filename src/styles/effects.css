@@ -92,5 +92,23 @@
   
   .falling-letter:nth-child(13) {
     animation-delay: 2.6s;
+  }  
+  .falling-letter:nth-child(14) {
+    animation-delay: 2.8s;
+  }
+  .falling-letter:nth-child(15) {
+    animation-delay: 3.0s;
+  }
+  .falling-letter:nth-child(16) {
+    animation-delay: 3.2s;
+  }
+  .falling-letter:nth-child(17) {
+    animation-delay: 3.4s;
+  }
+  .falling-letter:nth-child(18) {
+    animation-delay: 3.6s;
+  }
+  .falling-letter:nth-child(19) {
+    animation-delay: 3.8s;
   }
   

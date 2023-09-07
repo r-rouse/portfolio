@@ -36,7 +36,6 @@
   display: block;
   padding: 15px;
   font-family: 'Righteous', cursive;
-  text-shadow: 2px 10px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s, background-color 0.3s;
   font-size: 4vh;
   cursor: pointer;
@@ -45,7 +44,7 @@
 }
 
 .link-item:hover {
-  color: aliceblue;
+  color: rgb(157, 157, 157);
   cursor: pointer;
 }
 .link-iem:hover .text-1{

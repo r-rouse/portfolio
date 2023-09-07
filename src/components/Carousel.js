@@ -44,6 +44,36 @@ const MyCarousel = () => {
         <div className='carousel-info-links-container'>
           <div className='carousel-info-container'>
             <Carousel className='carousel' onChange={handleCarouselChange}>
+              {carouselItems4.map(item => (
+                <div key={item.id}>
+                  <h3>{item.content}</h3>
+                </div>
+              ))}
+            </Carousel>
+            <div className='info-container'>{calPalDescription}</div>
+          </div>
+          <div className='link-container'>
+            <a className='code-link' href='https://github.com/r-rouse/CalPal'>REPO</a>
+          </div>
+        </div>
+        <div className='carousel-info-links-container'>
+          <div className='carousel-info-container'>
+            <Carousel className='carousel' onChange={handleCarouselChange}>
+              {carouselItems3.map(item => (
+                <div key={item.id}>
+                  <h3>{item.content}</h3>
+                </div>
+              ))}
+            </Carousel>
+            <div className='info-container'>{creatureDescription}</div>
+          </div>
+          <div className='link-container'>
+            <a className='code-link' href='https://github.com/moomoomewmew/the-creature-collab'>REPO</a>
+          </div>
+        </div>
+        <div className='carousel-info-links-container'>
+          <div className='carousel-info-container'>
+            <Carousel className='carousel' onChange={handleCarouselChange}>
               {carouselItems.map(item => (
                 <div key={item.id}>
                   <h3>{item.content}</h3>
@@ -82,36 +112,6 @@ const MyCarousel = () => {
           </div>
           <div className='link-container'>
             <a className='code-link' href='https://github.com/r-rouse/wieners_on_14ers'>REPO</a>
-          </div>
-        </div>
-        <div className='carousel-info-links-container'>
-          <div className='carousel-info-container'>
-            <Carousel className='carousel' onChange={handleCarouselChange}>
-              {carouselItems3.map(item => (
-                <div key={item.id}>
-                  <h3>{item.content}</h3>
-                </div>
-              ))}
-            </Carousel>
-            <div className='info-container'>{creatureDescription}</div>
-          </div>
-          <div className='link-container'>
-            <a className='code-link' href='https://github.com/moomoomewmew/the-creature-collab'>REPO</a>
-          </div>
-        </div>
-        <div className='carousel-info-links-container'>
-          <div className='carousel-info-container'>
-            <Carousel className='carousel' onChange={handleCarouselChange}>
-              {carouselItems4.map(item => (
-                <div key={item.id}>
-                  <h3>{item.content}</h3>
-                </div>
-              ))}
-            </Carousel>
-            <div className='info-container'>{calPalDescription}</div>
-          </div>
-          <div className='link-container'>
-            <a className='code-link' href='https://github.com/r-rouse/CalPal'>REPO</a>
           </div>
         </div>
       </div>

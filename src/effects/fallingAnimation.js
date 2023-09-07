@@ -33,6 +33,12 @@ const NameFallingAnimation = () => {
       <span className="falling-letter">d</span>
       <span className="falling-letter">e</span>
       <span className="falling-letter">v</span>
+      <span className="falling-letter">e</span>
+      <span className="falling-letter">l</span>
+      <span className="falling-letter">o</span>
+      <span className="falling-letter">p</span>
+      <span className="falling-letter">e</span>
+      <span className="falling-letter">r</span>
     </div>
   );
 };
